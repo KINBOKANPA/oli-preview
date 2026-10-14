@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>助産師のアロマ・バストケア|oli by anone(那覇市長田)</title>
+<meta name="description" content="那覇市長田の女性専用サロン oli by anone。現役助産師によるアロマトリートメントとバストケア。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf5ee;
+    --bg-soft: #f3eadd;
+    --card: #fffdf9;
+    --ink: #4a3a2e;
+    --ink-soft: #7a6757;
+    --brown: #8a6548;
+    --brown-deep: #6b4c35;
+    --accent: #c4938c;
+    --line: #e6d8c6;
+    --radius: 18px;
+    --head-bg: rgba(250,245,238,.92);
+    --ph1: #efe3d2; --ph2: #e8d9c4;
+    --draft-bg: #f6dfc9;
+    --foot-fg: #eadccb;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Hiragino Sans", "Yu Gothic", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.9;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+  h1, h2, h3 { font-family: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif; font-weight: 600; line-height: 1.5; letter-spacing: .04em; }
+
+  /* header */
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--head-bg);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+  .head-in { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 62px; }
+  .logo { font-family: "Shippori Mincho", serif; font-size: 20px; letter-spacing: .08em; text-decoration: none; color: var(--brown-deep); white-space: nowrap; }
+  .logo small { font-family: "Zen Maru Gothic", sans-serif; font-size: 11px; color: var(--ink-soft); margin-left: 8px; letter-spacing: .05em; }
+  nav { display: flex; align-items: center; gap: 22px; font-size: 14px; }
+  nav a { text-decoration: none; color: var(--ink-soft); }
+  nav a:hover { color: var(--brown-deep); }
+  .btn {
+    display: inline-block; text-decoration: none; text-align: center;
+    background: var(--brown); color: #fff !important;
+    padding: 13px 28px; border-radius: 999px; font-weight: 500; font-size: 15px;
+    transition: background .2s, transform .2s;
+  }
+  .btn:hover { background: var(--brown-deep); transform: translateY(-1px); }
+  .btn.ghost { background: transparent; color: var(--brown-deep) !important; border: 1.5px solid var(--brown); }
+  .btn.ghost:hover { background: var(--bg-soft); }
+  .btn.small { padding: 8px 18px; font-size: 13px; }
+
+  /* placeholder */
+  .ph {
+    background: repeating-linear-gradient(45deg, var(--ph1), var(--ph1) 12px, var(--ph2) 12px, var(--ph2) 24px);
+    border-radius: var(--radius);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--ink-soft); font-size: 13px; text-align: center; padding: 16px;
+  }
+  .draft { display: inline-block; background: var(--draft-bg); color: var(--brown-deep); font-size: 11px; padding: 2px 10px; border-radius: 999px; margin-left: 8px; vertical-align: middle; font-family: "Zen Maru Gothic", sans-serif; letter-spacing: 0; }
+
+  /* hero */
+  .hero { padding: 56px 0 72px; }
+  .hero-in { display: grid; grid-template-columns: 1.05fr 1fr; gap: 48px; align-items: center; }
+  .badge { display: inline-block; background: var(--card); border: 1px solid var(--line); color: var(--brown-deep); font-size: 13px; padding: 6px 16px; border-radius: 999px; margin-bottom: 22px; }
+  .badge::before { content: "●"; color: var(--accent); font-size: 9px; margin-right: 8px; vertical-align: middle; }
+  .hero h1 { font-size: clamp(28px, 4.4vw, 42px); margin-bottom: 22px; color: var(--brown-deep); }
+  .hero p { color: var(--ink-soft); margin-bottom: 30px; }
+  .hero .btns { display: flex; flex-wrap: wrap; gap: 12px; }
+  .hero .ph { aspect-ratio: 4 / 5; }
+
+  section { padding: 72px 0; }
+  .alt { background: var(--bg-soft); }
+  .sec-title { text-align: center; margin-bottom: 44px; }
+  .sec-title span { display: block; font-size: 12px; letter-spacing: .25em; color: var(--accent); margin-bottom: 8px; font-family: "Zen Maru Gothic", sans-serif; }
+  .sec-title h2 { font-size: clamp(22px, 3.2vw, 28px); color: var(--brown-deep); }
+
+  /* features */
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 30px 26px; }
+  .card .num { font-family: "Shippori Mincho", serif; color: var(--accent); font-size: 22px; margin-bottom: 8px; }
+  .card h3 { font-size: 18px; margin-bottom: 10px; color: var(--brown-deep); }
+  .card p { font-size: 14.5px; color: var(--ink-soft); }
+
+  /* menu */
+  .menu { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .menu-item .en { font-family: "Shippori Mincho", serif; font-style: italic; font-size: 13px; color: var(--accent); letter-spacing: .08em; }
+  .menu-item { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 30px 28px; }
+  .menu-item h3 { font-size: 19px; color: var(--brown-deep); margin-bottom: 6px; }
+  .price { font-family: "Shippori Mincho", serif; font-size: 22px; color: var(--brown); margin-bottom: 12px; }
+  .price small { font-size: 12px; font-family: "Zen Maru Gothic", sans-serif; color: var(--ink-soft); margin-left: 6px; }
+  .menu-item p { font-size: 14.5px; color: var(--ink-soft); }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .tags span { font-size: 12.5px; background: var(--bg-soft); padding: 3px 12px; border-radius: 999px; color: var(--ink-soft); }
+  .note { font-size: 13px; color: var(--ink-soft); text-align: center; margin-top: 26px; }
+
+  /* for whom */
+  .list { max-width: 640px; margin: 0 auto; list-style: none; }
+  .list li { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 15px 22px 15px 50px; margin-bottom: 12px; position: relative; font-size: 15px; }
+  .list li::before { content: ""; position: absolute; left: 20px; top: 50%; width: 15px; height: 8px; border-left: 2px solid var(--accent); border-bottom: 2px solid var(--accent); transform: translateY(-70%) rotate(-45deg); }
+
+  /* profile */
+  .profile { display: grid; grid-template-columns: 300px 1fr; gap: 44px; align-items: center; }
+  .profile .ph { aspect-ratio: 1; border-radius: 50%; }
+  .profile .role { font-size: 13px; color: var(--accent); letter-spacing: .1em; }
+  .profile h3 { font-size: 24px; color: var(--brown-deep); margin-bottom: 16px; }
+  .profile p { color: var(--ink-soft); margin-bottom: 14px; font-size: 15px; }
+  .quote { border-left: 3px solid var(--accent); padding-left: 16px; color: var(--brown-deep) !important; font-family: "Shippori Mincho", serif; font-size: 16.5px !important; }
+
+  /* info */
+  .info { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: stretch; }
+  dl { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 28px; }
+  dl div { display: grid; grid-template-columns: 96px 1fr; gap: 12px; padding: 16px 0; border-bottom: 1px dashed var(--line); font-size: 15px; }
+  dl div:last-child { border-bottom: none; }
+  dt { color: var(--brown); font-weight: 500; }
+  .info .ph { min-height: 260px; }
+
+  /* reserve */
+  .reserve { text-align: center; }
+  .reserve p { color: var(--ink-soft); margin-bottom: 28px; }
+  .reserve .btns { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+
+  footer { background: var(--brown-deep); color: var(--foot-fg); text-align: center; padding: 30px 20px; font-size: 13px; }
+
+  @media (max-width: 800px) {
+    nav a:not(.btn) { display: none; }
+    .logo small { display: none; }
+    .hero { padding: 36px 0 56px; }
+    .hero-in, .profile, .info { grid-template-columns: 1fr; gap: 30px; }
+    .hero .ph { aspect-ratio: 4 / 3; order: -1; }
+    .cards, .menu { grid-template-columns: 1fr; }
+    .menu-item .tags span { white-space: normal; }
+    section { padding: 56px 0; }
+    .profile .ph { width: 200px; margin: 0 auto; }
+    .profile { text-align: left; }
+    dl { padding: 6px 20px; }
+    dl div { grid-template-columns: 80px 1fr; }
+    .hero .btns .btn, .reserve .btn { width: 100%; }
+  }
+
+  /* ===== design B: green / botanical ===== */
+  body[data-design="green"] {
+    --bg: #f6f7f1; --bg-soft: #e8eee1; --card: #fdfdf9;
+    --ink: #33402f; --ink-soft: #64705d;
+    --brown: #4f6b4a; --brown-deep: #36502f; --accent: #8aa27a; --line: #d8e0cd;
+    --radius: 10px;
+    --head-bg: rgba(246,247,241,.93); --ph1: #e2e9d9; --ph2: #d6dfcb;
+    --draft-bg: #dde7d2; --foot-fg: #e3ecd9;
+  }
+  body[data-design="green"] .btn { border-radius: 8px; }
+  body[data-design="green"] .badge, body[data-design="green"] .list li { border-radius: 8px; }
+  body[data-design="green"] .hero { background: var(--bg-soft); position: relative; overflow: hidden; }
+  body[data-design="green"] .hero-in { position: relative; z-index: 1; }
+  body[data-design="green"] .sec-title::after { content: ""; display: block; width: 30px; height: 30px; margin: 10px auto 0; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M20 38V16' stroke='%238aa27a' stroke-width='1.6' fill='none'/%3E%3Cpath d='M20 24C9 23 4 14 4 5c10 1 16 8 16 19z' fill='%238aa27a'/%3E%3Cpath d='M20 20c10-2 15-9 16-17-9 1-15 7-16 17z' fill='%23a9bd9b'/%3E%3C/svg%3E") center/contain no-repeat; }
+  .leaf { display: none; position: absolute; color: var(--accent); opacity: .38; pointer-events: none; }
+  body[data-design="green"] .leaf { display: block; }
+  .leaf-l { left: -30px; bottom: -40px; width: 190px; transform: rotate(18deg); }
+  .leaf-r { right: -36px; top: -30px; width: 210px; transform: rotate(200deg); }
+
+  /* ===== design C: soft pink ===== */
+  body[data-design="pink"] {
+    --bg: #fcf5f3; --bg-soft: #f6e7e4; --card: #fffbfa;
+    --ink: #55403f; --ink-soft: #846b69;
+    --brown: #a96f74; --brown-deep: #7c4d54; --accent: #d09a98; --line: #eedad6;
+    --radius: 28px;
+    --head-bg: rgba(252,245,243,.93); --ph1: #f5e3df; --ph2: #efd6d2;
+    --draft-bg: #f6dcd8; --foot-fg: #f7e6e3;
+  }
+  body[data-design="pink"] .hero { background:
+    radial-gradient(circle at 92% 8%, var(--bg-soft) 0 230px, transparent 231px),
+    radial-gradient(circle at 4% 96%, var(--bg-soft) 0 150px, transparent 151px); }
+  body[data-design="pink"] .hero .ph { border-radius: 999px 999px 28px 28px; }
+  body[data-design="pink"] .card { text-align: center; }
+  body[data-design="pink"] .list li { border-radius: 999px; }
+
+  /* ===== design switcher (確認用。公開時に外します) ===== */
+  body { padding-bottom: 76px; }
+  .switch { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: flex; justify-content: center; padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px)); pointer-events: none; }
+  .switch-in { pointer-events: auto; display: flex; align-items: center; gap: 6px; background: #3b3531; color: #fff; padding: 6px; border-radius: 999px; box-shadow: 0 6px 20px rgba(0,0,0,.22); font-size: 13px; max-width: 100%; }
+  .switch-in > span { padding: 0 6px 0 12px; white-space: nowrap; color: #d9d2cc; }
+  .switch button { font: inherit; border: 0; cursor: pointer; padding: 8px 14px; border-radius: 999px; background: transparent; color: #fff; white-space: nowrap; }
+  .switch button[aria-pressed="true"] { background: #fff; color: #3b3531; font-weight: 700; }
+  .switch button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+  @media (max-width: 800px) {
+    .leaf-l { width: 110px; } .leaf-r { width: 120px; }
+    .switch-in > span { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap head-in">
+    <a href="#top" class="logo">oli by anone<small>助産師のアロマ・バストケア</small></a>
+    <nav>
+      <a href="#about">できること</a>
+      <a href="#menu">メニュー</a>
+      <a href="#profile">プロフィール</a>
+      <a href="#info">サロン情報</a>
+      <a href="#reserve" class="btn small">ご予約</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <div class="hero">
+    <svg class="leaf leaf-l" viewBox="0 0 120 200" aria-hidden="true"><path d="M60 200C58 140 60 80 62 20" stroke="currentColor" stroke-width="2" fill="none"/><g fill="currentColor"><path d="M61 150C30 145 12 120 8 95c27 3 47 23 53 55z"/><path d="M61 120c31-8 47-32 49-58-26 6-45 28-49 58z"/><path d="M61 85C36 78 22 58 20 36c22 6 38 24 41 49z"/><path d="M62 55c20-7 30-25 30-43-16 6-28 22-30 43z"/></g></svg>
+    <svg class="leaf leaf-r" viewBox="0 0 120 200" aria-hidden="true"><path d="M60 200C58 140 60 80 62 20" stroke="currentColor" stroke-width="2" fill="none"/><g fill="currentColor"><path d="M61 150C30 145 12 120 8 95c27 3 47 23 53 55z"/><path d="M61 120c31-8 47-32 49-58-26 6-45 28-49 58z"/><path d="M61 85C36 78 22 58 20 36c22 6 38 24 41 49z"/><path d="M62 55c20-7 30-25 30-43-16 6-28 22-30 43z"/></g></svg>
+    <div class="wrap hero-in">
+      <div>
+        <div class="badge">現役助産師が施術します</div>
+        <h1>あなたのために、<br>整える時間。</h1>
+        <p>助産師が届ける、女性のためのサロン。<br>那覇市長田の個室で、アロマトリートメントとバストケアを行います。マタニティ・産後の方も、そうでない方も、自分を大切にするひとときをお過ごしください。</p>
+        <div class="btns">
+          <a href="#reserve" class="btn">予約する</a>
+          <a href="#menu" class="btn ghost">メニューを見る</a>
+        </div>
+      </div>
+      <div class="ph">写真(仮)<br>施術の様子 または サロン内</div>
+    </div>
+  </div>
+
+  <section id="about" class="alt">
+    <div class="wrap">
+      <div class="sec-title"><span>ABOUT</span><h2>助産師だから、できること</h2></div>
+      <div class="cards">
+        <div class="card">
+          <div class="num">01</div>
+          <h3>からだの変化を知っている</h3>
+          <p>妊娠・出産・産後と、女性のからだに寄り添ってきた助産師が担当します。その日の体調をうかがいながら施術を進めます。</p>
+        </div>
+        <div class="card">
+          <div class="num">02</div>
+          <h3>産後・授乳中の相談ができる</h3>
+          <p>産後のからだのこと、授乳や乳房のこと。誰に聞けばいいか迷うことも、施術の合間にゆっくりお話しいただけます。</p>
+        </div>
+        <div class="card">
+          <div class="num">03</div>
+          <h3>女性専用・個室で安心</h3>
+          <p>女性専用のサロンで、施術は個室で行います。まわりを気にせず、ご自身のための時間をお過ごしください。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu">
+    <div class="wrap">
+      <div class="sec-title"><span>MENU</span><h2>メニュー</h2></div>
+      <div class="menu">
+        <div class="menu-item">
+          <div class="en">Aroma Treatment</div>
+          <h3>アロマトリートメント</h3>
+          <div class="price">¥6,500〜¥9,800<small>税込</small></div>
+          <p>心と身体に、余白が生まれる時間。アロマオイルを使った全身のトリートメントで、日々の疲れや緊張をゆるめます。</p>
+          <div class="tags"><span>一般女性の方へ</span><span>全身ケア</span></div>
+        </div>
+        <div class="menu-item">
+          <div class="en">Maternity &amp; Postpartum</div>
+          <h3>マタニティ・産後アロマ</h3>
+          <div class="price" style="font-size:15px">料金は予約ページをご覧ください</div>
+          <p>妊娠中の身体にも、やさしい時間を。出産を終えて毎日がんばっているママにも。助産師が体調に配慮しながら施術します。</p>
+          <div class="tags"><span>妊娠20週以降の方</span><span>主治医の許可が必要です</span><span>産後の方</span></div>
+        </div>
+        <div class="menu-item">
+          <div class="en">Breast Care</div>
+          <h3>助産師によるバストケア</h3>
+          <div class="price">¥9,800<small>税込</small></div>
+          <p>バストケアは、自分を大切にすることから。左右差、形やハリ、ボリュームなどのお悩みに寄り添い、バストだけでなく全身をみながらケアします。</p>
+          <div class="tags"><span>左右差</span><span>形・ハリ</span><span>ボリューム</span><span>授乳・乳房ケア</span></div>
+        </div>
+      </div>
+      <p class="note">※ 当サロンの施術は、治療や医療行為ではありません。<br>※ 料金・所要時間の詳細は予約ページでご確認ください。</p>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="sec-title"><span>FOR YOU</span><h2>こんな方に</h2></div>
+      <ul class="list">
+        <li>家事や仕事、育児で、自分のことが後回しになっている</li>
+        <li>産後のからだを、ゆっくりいたわりたい</li>
+        <li>授乳や乳房のことを、専門職に相談したい</li>
+        <li>バストの悩みを、安心して話せる場所がほしい</li>
+        <li>静かな個室で、ひとりの時間を過ごしたい</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="profile">
+    <div class="wrap">
+      <div class="sec-title"><span>PROFILE</span><h2>プロフィール</h2></div>
+      <div class="profile">
+        <div class="ph">写真(仮)<br>顔写真・手元・ロゴの<br>どれにするか本人に確認</div>
+        <div>
+          <div class="role">助産師 / セラピスト</div>
+          <h3>麻梨江<span class="draft">文章は仮</span></h3>
+          <p class="quote">毎日誰かのために頑張る女性が、自分自身を大切にできる場所をつくりたい。</p>
+          <p>現役の助産師として、妊娠・出産・産後の女性と関わってきました。からだも心も大きく変わる時期に、自分のことをいたわる時間を持てない方がたくさんいると感じ、サロンでの施術を始めました。施術歴は4年です。</p>
+          <p>産前産後の方はもちろん、すべての女性にとって、ほっとできる場所でありたいと思っています。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="info" class="alt">
+    <div class="wrap">
+      <div class="sec-title"><span>SALON</span><h2>サロン情報</h2></div>
+      <div class="info">
+        <dl>
+          <div><dt>サロン名</dt><dd>oli by anone(オリ バイ アノネ)</dd></div>
+          <div><dt>住所</dt><dd>沖縄県那覇市長田<br><small style="color:var(--ink-soft)">詳しい場所はご予約時にご案内します</small></dd></div>
+          <div><dt>営業時間</dt><dd>平日 10:00〜19:00<br>日・祝 10:00〜18:00</dd></div>
+          <div><dt>定休日</dt><dd>火曜、第1・3・5月曜</dd></div>
+          <div><dt>設備</dt><dd>駐車場あり / 女性専用 / 個室あり</dd></div>
+        </dl>
+        <div class="ph">写真(仮)<br>サロンの外観 または 室内<br>※地図を載せるかは本人に確認</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reserve" class="reserve">
+    <div class="wrap">
+      <div class="sec-title"><span>RESERVE</span><h2>ご予約・お問い合わせ</h2></div>
+      <p>ご予約はホットペッパービューティーから。<br>ご質問はInstagramのDMでもお受けしています。</p>
+      <div class="btns">
+        <a class="btn" href="https://beauty.hotpepper.jp/kr/slnH000697850/staff/W001462867/" target="_blank" rel="noopener">ホットペッパーで予約する</a>
+        <a class="btn ghost" href="https://www.instagram.com/oli_anone/" target="_blank" rel="noopener">Instagram @oli_anone</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>© oli by anone|沖縄県那覇市長田</footer>
+
+<div class="switch"><div class="switch-in" role="group" aria-label="デザイン切り替え">
+  <span>デザイン</span>
+  <button type="button" id="d-beige" data-d="beige" aria-pressed="true">A ベージュ</button>
+  <button type="button" id="d-green" data-d="green" aria-pressed="false">B グリーン</button>
+  <button type="button" id="d-pink" data-d="pink" aria-pressed="false">C ピンク</button>
+</div></div>
+<script>
+(function(){
+  var bs=document.querySelectorAll('.switch button');
+  function set(d){ if(d==='beige'){document.body.removeAttribute('data-design');}else{document.body.setAttribute('data-design',d);}
+    bs.forEach(function(b){b.setAttribute('aria-pressed', String(b.dataset.d===d));}); }
+  bs.forEach(function(b){ b.addEventListener('click',function(){ set(b.dataset.d); }); });
+  var h=(location.hash||'').slice(1); if(h==='green'||h==='pink') set(h);
+})();
+</script>
+
+</body>
+</html>
